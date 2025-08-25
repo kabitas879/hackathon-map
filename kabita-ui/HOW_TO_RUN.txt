@@ -1,0 +1,8 @@
+How to run
+1) Use the editor's Live Preview on /workspace/kabita-ui/index.html
+2) Or serve the folder: python3 -m http.server 5173 --bind 0.0.0.0
+   Then open http://localhost:5173/kabita-ui/
+
+Notes
+- Uses React 18 UMD, Babel in-browser, and Tailwind CDN for zero-install preview.
+- Main entry: /workspace/kabita-ui/index.html -> loads /workspace/kabita-ui/main.jsx and /workspace/kabita-ui/app.jsx
