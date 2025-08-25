@@ -1,0 +1,7 @@
+:root { --font-sans: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica Neue, Arial, "Apple Color Emoji", "Segoe UI Emoji"; }
+html { font-family: var(--font-sans); }
+/* Utility helpers beyond Tailwind for scroll shadows */
+.scroll-shadow-y {
+  -webkit-mask-image: linear-gradient(180deg, rgba(0,0,0,1) 90%, rgba(0,0,0,0));
+          mask-image: linear-gradient(180deg, rgba(0,0,0,1) 90%, rgba(0,0,0,0));
+}
